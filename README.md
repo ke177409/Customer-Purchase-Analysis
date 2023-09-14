@@ -1,5 +1,5 @@
 # Customer Purchase Analysis: Project Overview
-Developed insights for online grocery service sales and marketing teams using customer data. Findings include ideal time periods for advertising, popular products, and customer demographics. Prepared data for exploratory analysis by merging data frames and generating new variables in Python. Created visualizations in Python to illustrate relatioships between variables.
+Developed insights for online grocery service sales and marketing teams using customer data. Findings include ideal time periods for advertising, popular products, and customer demographics. Prepared data for exploratory analysis by merging data frames and generating new variables in Python. Created visualizations in Python to illustrate relationships between variables.
 
 ## Tools & Skills
 Python Version: 3.11
@@ -20,16 +20,16 @@ I was tasked to perform an exploratory analysis on multiple data sets using Exce
 
 ## Data Cleaning and Transformation
 After performing descriptive analyses on the data, I was able to identify areas where data cleaning and transformations were necessary. The following changes and variables were made:
-* Dropped column "eval_set" because data was not pertinent to analysis
-* Created dictionaries to assign appropriate data types and consistent variable names
-* Checked datasets for mixed data types, missing data, and duplicate data
-* Renamed null values as "N/A" in orders dataset to flag as user's initial order
-* Removed missing values in "product_name" column and duplicates from products dataset
-* Generated new columns using if- and for-loops:
+* Dropped column "eval_set" because data was not pertinent to analysis.
+* Created dictionaries to assign appropriate data types and consistent variable names.
+* Checked datasets for mixed data types, missing data, and duplicate data.
+* Renamed null values as "N/A" in the orders dataset to flag as a user's initial order.
+* Removed missing values in "product_name" column and duplicates from products dataset.
+* Generated new columns using if- and for-loops in Python:
   * Product price ranges ("price_label")
   * Day of week popularity ("busiest_day")
   * Hour of day popularity ("busiest_period_of_day")
-* Used transform() and loc() functions to aggregate customer data and create new variables:
+* Used transform() and loc() functions in Python to aggregate customer data and create new variables:
   * Created "max_order" column to determine maximum number of orders and assign customer loyalty status
   * Created "average_price" column to determine average purchased item price and assign customer spending label
   * Created "median_days_prior_order" column to determine median number of days since prior order and assign customer frequency label
