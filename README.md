@@ -10,7 +10,7 @@ This repository contains the following:
 Python Version: 3.11
 
 Packages: pandas, numpy, matplotlib, seaborn, scipy, pickle
-* Data transformation, subsets, and quality checks
+* Data wrangling and merging
 * Derive new variables using if- and for-loops
 * Group and aggregate data
 * Visualizations
